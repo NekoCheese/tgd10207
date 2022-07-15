@@ -19,7 +19,30 @@
 }
 
 /* 理念 */
-.banner2{display: none;}
+.banner2{
+    height: 800px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.banner2 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 120px;
+}
+
+.banner2 h3{
+    font-size: 2rem;
+}
+
+.banner2 p{
+    line-height: 1.6;
+}
 
 /* 名言 */
 .banner3{
@@ -31,4 +54,34 @@
     height: 800px;
     align-items: center;
     justify-content: center;
+}
+
+/* 人人人人人人人人人人人人 */
+.banner4{
+    height: 800px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.banner4 ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 162px;
+}
+
+.banner4 h4{
+    font-size: 2rem;
+}
+
+/* YOOOOOOOOOOOOOOOOOOOOOUTUBE */
+
+.banner5{
+    display: flex;
+}
+
+.banner5 iframe{
 }

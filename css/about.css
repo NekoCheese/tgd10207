@@ -159,6 +159,17 @@
     font-size: 1.2rem;
 }
 
+.banner6 > input{
+    background-color: #FF7300;
+    width: 100px;
+    height: 53px;
+    font-size: 1.6rem;
+    border: none;
+    font-weight: bold;
+}
 
+.banner6 span{
+    color: red;
+    font-size: 2rem;
 
-
+}

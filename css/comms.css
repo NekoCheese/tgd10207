@@ -1,0 +1,124 @@
+.page-wrapper{
+    width: 100vw;
+}
+
+h4{
+    position: relative; 
+    text-align: center;
+    font-size: 1.8rem;  
+}
+
+h4::before{
+    content: "";
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    background: #FF7300;
+    width: 25%;
+    height: 1px;
+}
+
+h4::after{
+    content: "";
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    background: #FF7300;
+    width: 25%;
+    height: 1px;
+}
+
+
+/* 大圖 */
+.top_img img{
+    display: block;
+    width: 100%;
+}
+
+/* 名言 */
+.good_saying{
+    text-align: center;
+    height: 300px;
+    line-height: 3;
+}
+
+.good_saying h2{}
+
+.good_saying h3{}
+
+/* 指南 */
+.intel{
+    max-width: 1800px;
+    margin: 30px auto;
+}
+
+.intel ul{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.intel ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #878787;
+    width: 510px;
+    height: 530px;
+    margin: 50px auto;
+}
+
+.intel h2{
+    font-size: 2.5rem;
+}
+
+.intel p{
+    font-size: 1.4rem;
+    margin: 0 20px;
+    line-height: 1.6;
+}
+
+.intel a{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* 影片 */
+.com_video{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.com_video ul{
+    max-width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.com_video ul li{
+    
+}
+
+.com_video iframe{
+    /* width: 100vh;
+    height: 56.25vh; */
+    margin: 80px 20px;
+}
+
+/* 社群 */
+.wmcomms{
+    max-width: 100%;
+}
+
+.wmcomms h4{
+   
+}
+
+.wmcomms ul{}
+
+.wmcomms ul li{}
+

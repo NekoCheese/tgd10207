@@ -1,94 +1,95 @@
 /* 首頁大圖 */
-.main img{
+.head-pic img {
     display: block;
-    width: 100%;
+    width: 100vw;
     height: auto;
 }
 
 /* 大圖輪播鈕(無功能) */
 
-.img-wrapper{
-    width: 100%;
+.img-wrapper {
     height: 36px;
     background-color: #2b2b2b;
     box-sizing: border-box;
 }
 
-.img-wrapper ul{
+.img-wrapper ul {
     display: flex;
     height: 100%;
     justify-content: center;
     align-items: center;
 }
 
-.img-wrapper li{
+.img-wrapper li {
     border: 8px solid white;
     border-radius: 50%;
     margin: 0 10px;
 }
 
-.img-wrapper li:first-child{
-    border: 8px solid #FF7300;
+.img-wrapper li:first-child {
+    border: 8px solid #ff7300;
 }
 
 /* 內容 */
+main {
+    margin: 0 auto;
+}
 
-main ul{
+main ul {
     display: flex;
     flex-direction: column;
     max-width: 1602px;
-    min-width: 1080px;
-    margin: 0 auto;
+    width: 1602%;
+    min-width: 1580px;
+    margin: auto;
     padding: 80px;
 }
 
-main li{
+main li {
     display: flex;
     justify-content: space-between;
-    background-color: #4D4D4D;
+    background-color: #4d4d4d;
     margin-bottom: 80px;
-    border-radius: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px rgb(0 0 0 / 50%);
 }
 
-main li:last-child{
+main li:last-child {
     margin-bottom: 0;
 }
 
-.banner div{
+.banner div {
     padding: 33px 53px;
 }
 
-.banner h3{
+.banner h3 {
     line-height: 2;
 }
 
-.banner p{
+.banner p {
     height: 240px;
     overflow: hidden;
 }
 
-.banner a{
+.banner a {
     display: block;
     width: 180px;
     height: 36px;
     line-height: 36px;
     margin: 0 auto;
     text-align: center;
-    background-color: #FF7300;
+    background-color: #ff7300;
 }
 
-.banner img:nth-child(2n+1){
-    border-radius: 15px 0 0 15px; 
-}
-
-.banner img:nth-child(n+2){
-    border-radius: 0 15px 15px 0; 
+.banner img {
+    margin: 0 auto;
 }
 
 /* 訂閱欄 */
 
-aside{
-    background-image: url(../img/contact_bg.jpg);
+aside {
+    background-image: url("../img/home_img/contact_bg.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -96,44 +97,44 @@ aside{
     height: 460px;
 }
 
-aside h1{
+aside h1 {
     margin-top: 96px;
 }
 
-aside h2{
+aside h2 {
     margin-top: 37px;
 }
 
-aside .submit{
+aside .submit {
     margin-top: 59px;
 }
 
-aside input{
-    text-align: center;
+aside input {
     font-size: 1.2rem;
     height: 36px;
     line-height: 1;
     outline: none;
-    padding: 0;
-    border:0;
+    border: none;
+    padding: 0 20px;
 }
 
-aside .email{
-    width: 300px;
+aside .email {
+    width: 260px;
 }
 
-aside .email::placeholder{
+aside .email::placeholder {
     color: #ccc;
+    text-align: center;
 }
 
-aside .send{
+aside .send {
     width: 80px;
     margin-left: 27px;
-    background-color: #FF7300;
+    background-color: #ff7300;
     color: white;
 }
 
-aside .send:hover{
+aside .send:hover {
     background-color: white;
-    color: #FF7300;
+    color: #ff7300;
 }

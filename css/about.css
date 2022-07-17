@@ -1,175 +1,172 @@
-.page-wrapper .wrapper{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+.page-wrapper .wrapper {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 /* ABOUT */
-.banner1{
-    background-image: url(../img/about_img/ab_ba1.jpg);
+.banner1 {
+  background-image: url(../img/about_img/ab_ba1.jpg);
 }
 
-.banner1 h1{
-    display: flex;
-    height: 800px;
-    align-items: center;
-    justify-content: center;
-    font-size: 15rem;
-    letter-spacing: 30px;
+.banner1 h1 {
+  display: flex;
+  height: 800px;
+  align-items: center;
+  justify-content: center;
+  font-size: 15rem;
+  letter-spacing: 30px;
 }
 
 /* 理念 */
-.banner2{
-    height: 800px;
-    background-color: #fff;
-    color: black;
-    text-align: center;
-    padding-top: 120px;
-    box-sizing: border-box;
-    font-weight: bold;
+.banner2 {
+  height: 800px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  padding-top: 120px;
+  box-sizing: border-box;
+  font-weight: bold;
 }
 
-.banner2 div{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-top: 120px;
+.banner2 div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 120px;
 }
 
-.banner2 h3{
-    font-size: 2rem;
+.banner2 h3 {
+  font-size: 2rem;
 }
 
-.banner2 p{
-    line-height: 1.6;
+.banner2 p {
+  line-height: 1.6;
 }
 
 /* 名言 */
-.banner3{
-    background-image: url(../img/about_img/ab_ba2.jpg);
+.banner3 {
+  background-image: url(../img/about_img/ab_ba2.jpg);
 }
 
-.banner3 h2{
-    display: flex;
-    height: 800px;
-    align-items: center;
-    justify-content: center;
+.banner3 h2 {
+  display: flex;
+  height: 800px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 人人人人人人人人人人人人 */
-.banner4{
-    height: 800px;
-    box-sizing: border-box;
-    background-color: #fff;
-    color: black;
-    font-weight: bold;
-    line-height: 1.6;
+.banner4 {
+  height: 800px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+  line-height: 1.6;
 }
 
-.banner4 ul{
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    padding-top: 162px;
+.banner4 ul {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 162px;
 }
 
-.banner4 h4{
-    font-size: 2rem;
+.banner4 h4 {
+  font-size: 2rem;
 }
 
 /* YOOOOOOOOOOOOOOOOOOOOOUTUBE */
 
-.banner5{
-    overflow: hidden;
-    
+.banner5 {
+  overflow: hidden;
 }
 
-.banner5 ul{
-    display: flex;
-    justify-content: space-evenly;
-    height: 800px;
+.banner5 ul {
+  display: flex;
+  justify-content: space-evenly;
+  height: 800px;
 }
 
-.banner5 ul li{
-    display: flex;
-    align-items: center;
-    color: rgba(235, 235, 235, .5);
-    font-weight: 800;
-    font-size: 4rem;
+.banner5 ul li {
+  display: flex;
+  align-items: center;
+  color: rgb(235 235 235 / 50%);
+  font-weight: 800;
+  font-size: 4rem;
 }
 
-.banner5 iframe{
-    width: 100vh;
-    height: 56.25vh;
-    margin: auto 80px;
+.banner5 iframe {
+  width: 100vh;
+  height: 56.25vh;
+  margin: 0 80px;
 }
 
-.videoM::after{
-    content: "\f138";
+.videoM::after {
+  content: "\f138";
 }
 
-.videoM::before{
-    content: "\f137";
+.videoM::before {
+  content: "\f137";
 }
 
 /* 訂閱訂閱訂閱訂閱訂閱訂閱訂閱訂閱訂閱訂閱訂閱訂閱訂閱 */
 
-.banner6{
-    height: 800px;
-    background-image: url(../img/about_img/ab_ba3.jpg);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly
+.banner6 {
+  height: 800px;
+  background-image: url(../img/about_img/ab_ba3.jpg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.banner6 ul{
-    display: flex;
-    text-align: left;
+.banner6 ul {
+  display: flex;
+  text-align: left;
 }
 
-.banner6 ul li{
-    margin: 0 35px;
+.banner6 ul li {
+  margin: 0 35px;
 }
 
-.banner6 li input{
-    width: 300px;
-    height: 50px;
-    margin: 10px 0;
-    background-color: rgba(255,255,255,0);
-    border: 2px solid white;
-    border-radius: 5px;
-    color: white;
-    font-size: 2rem;
+.banner6 li input {
+  width: 300px;
+  height: 50px;
+  margin: 10px 0;
+  background-color: rgb(255 255 255 / 0%);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 2rem;
 }
 
-.banner6 h3{
-    font-size: 4rem;
-    font-weight: bold;
-    
+.banner6 h3 {
+  font-size: 4rem;
+  font-weight: bold;
 }
 
-.banner6 h4{
-    font-size: 1.3rem;
+.banner6 h4 {
+  font-size: 1.3rem;
 }
 
-.banner6 p{
-    font-size: 1.2rem;
+.banner6 p {
+  font-size: 1.2rem;
 }
 
-.banner6 > input{
-    background-color: #FF7300;
-    width: 100px;
-    height: 53px;
-    font-size: 1.6rem;
-    border: none;
-    font-weight: bold;
+.banner6 > input {
+  background-color: #ff7300;
+  width: 100px;
+  height: 53px;
+  font-size: 1.6rem;
+  border: none;
+  font-weight: bold;
 }
 
-.banner6 span{
-    color: red;
-    font-size: 2rem;
-
+.banner6 span {
+  color: red;
+  font-size: 2rem;
 }

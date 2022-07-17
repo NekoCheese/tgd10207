@@ -1,66 +1,67 @@
-.page-wrapper{
+/* stylelint-disable function-url-quotes */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable selector-class-pattern */
+.page-wrapper {
     width: 100vw;
 }
 
-h4{
-    position: relative; 
+h4 {
+    position: relative;
     text-align: center;
-    font-size: 1.8rem;  
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
-h4::before{
+h4::before {
     content: "";
     position: absolute;
-    left: 20%;
+    left: 15%;
     top: 50%;
-    background: #FF7300;
-    width: 25%;
+    background: #ff7300;
+    width: 30%;
     height: 1px;
 }
 
-h4::after{
+h4::after {
     content: "";
     position: absolute;
-    right: 20%;
+    right: 15%;
     top: 50%;
-    background: #FF7300;
-    width: 25%;
+    background: #ff7300;
+    width: 30%;
     height: 1px;
 }
-
 
 /* 大圖 */
-.top_img img{
+.top_img img {
     display: block;
     width: 100%;
 }
 
 /* 名言 */
-.good_saying{
+.good_saying {
+    margin-top: 30px;
+    font-family: "IM Fell Double Pica", serif;
     text-align: center;
     height: 300px;
     line-height: 3;
 }
 
-.good_saying h2{}
-
-.good_saying h3{}
-
 /* 指南 */
-.intel{
+.intel {
     max-width: 1800px;
     margin: 30px auto;
 }
 
-.intel ul{
+.intel ul {
     width: 80%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center
+    justify-content: center;
 }
 
-.intel ul li{
+.intel ul li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,56 +70,98 @@ h4::after{
     width: 510px;
     height: 530px;
     margin: 50px auto;
+    overflow: hidden;
 }
 
-.intel h2{
+.intel h2 {
     font-size: 2.5rem;
 }
 
-.intel p{
+.intel p {
     font-size: 1.4rem;
     margin: 0 20px;
     line-height: 1.6;
 }
 
-.intel a{
+.intel a {
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 /* 影片 */
-.com_video{
+.com_video {
     max-width: 100%;
     margin: 0 auto;
 }
 
-.com_video ul{
+.com_video ul {
     max-width: auto;
     display: flex;
     justify-content: space-evenly;
-    
 }
 
-.com_video ul li{
-    
-}
-
-.com_video iframe{
-    /* width: 100vh;
-    height: 56.25vh; */
+.com_video iframe {
     margin: 80px 20px;
 }
 
 /* 社群 */
-.wmcomms{
+.wmcomms {
     max-width: 100%;
 }
 
-.wmcomms h4{
-   
+.wmcomms h4 {
+    width: 1800px;
+    margin: 0 auto;
 }
 
-.wmcomms ul{}
+.wmcomms ul {
+    display: flex;
+    width: 1440px;
+    margin: 100px auto 150px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-.wmcomms ul li{}
+.wmcomms ul li {
+    width: 568px;
+    height: 380px;
+    margin: 50px;
+}
 
+.wmcomms ul li {
+    outline: 2px solid black;
+    outline-offset: -2px;
+    text-align: center;
+}
+
+.wmcomms ul li p {
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.wmcomms .social1 {
+    background-image: url("../img/comms_img/com_soc01.jpg");
+}
+
+.wmcomms .social2 {
+    background-image: url("../img/comms_img/com_soc02.jpg");
+}
+
+.wmcomms .social3 {
+    background-image: url("../img/comms_img/com_soc03.jpg");
+}
+
+.wmcomms .social4 {
+    background-image: url("../img/comms_img/com_soc04.jpg");
+}
+
+.wmcomms .social5 {
+    background-image: url("../img/comms_img/com_soc05.jpg");
+}
+
+.wmcomms .social6 {
+    background-image: url("../img/comms_img/com_soc06.jpg");
+}

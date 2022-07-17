@@ -1,34 +1,44 @@
+@import "https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@1&family=Noto+Sans+TC&display=swap";
+
 /* -------------------參數------------------- */
 
-body{
+body {
     width: 100%;
     background-color: #2b2b2b;
-    background-image: url(../img/carbon-fibre-bg.png);
+    background-image: url("../img/carbon-fibre-bg.png");
     color: white;
     font-size: 16px;
     overflow-x: hidden;
-    font-family: Arial,"Font Awesome 5 Free";
+    font-family: Arial, "Font Awesome 5 Free";
 }
 
-.page-wrapper{
+.page-wrapper {
     display: flex;
     flex-direction: column;
 }
 
-h1{font-size: 4rem;}
+h1 {
+    font-size: 4rem;
+}
 
-h2{font-size: 3rem;}
+h2 {
+    font-size: 3rem;
+}
 
-h3{font-size: 2rem;}
+h3 {
+    font-size: 2rem;
+}
 
-h4{font-size: rem;}
+h4 {
+    font-size: rem;
+}
 
-p{
+p {
     font-size: 1.2rem;
     line-height: 30px;
 }
 
-a{
+a {
     font-size: 1.2rem;
     text-decoration: none;
     color: white;

@@ -92,7 +92,6 @@ h4::after {
 }
 
 .com_video ul {
-    max-width: auto;
     display: flex;
     justify-content: space-evenly;
 }
@@ -103,20 +102,16 @@ h4::after {
 
 /* 社群 */
 .wmcomms {
-    max-width: 100%;
-}
-
-.wmcomms h4 {
-    width: 1800px;
-    margin: 0 auto;
+    max-width: 1800px;
+    margin:  auto;
 }
 
 .wmcomms ul {
+    width: 80%;
+    margin: auto;
     display: flex;
-    width: 1440px;
-    margin: 100px auto 150px;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .wmcomms ul li {

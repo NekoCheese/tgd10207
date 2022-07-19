@@ -1,3 +1,9 @@
+/* 麵包屑 */
+.top-nav a:first-child{
+    color:#ff7300;
+}
+
+
 /* 首頁大圖 */
 .head-pic img {
     display: block;

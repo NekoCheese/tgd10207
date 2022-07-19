@@ -1,6 +1,6 @@
 /* 麵包屑 */
-.top-nav a:last-child{
-    color:#ff7300;
+.top-nav a:last-child {
+    color: #ff7300;
 }
 /* 麵包屑 */
 
@@ -108,7 +108,7 @@ h4::after {
 /* 社群 */
 .wmcomms {
     max-width: 1800px;
-    margin:  auto;
+    margin: auto;
 }
 
 .wmcomms ul {

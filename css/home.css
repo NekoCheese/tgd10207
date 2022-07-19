@@ -1,6 +1,6 @@
 /* 麵包屑 */
-.top-nav a:first-child{
-    color:#ff7300;
+.top-nav a:first-child {
+    color: #ff7300;
 }
 /* 麵包屑 */
 
@@ -45,8 +45,6 @@ main ul {
     display: flex;
     flex-direction: column;
     max-width: 1602px;
-    width: 1602%;
-    min-width: 1580px;
     margin: auto;
     padding: 80px;
 }
@@ -55,6 +53,7 @@ main li {
     display: flex;
     justify-content: space-between;
     background-color: #4d4d4d;
+    margin: auto;
     margin-bottom: 80px;
     border-radius: 20px;
     overflow: hidden;

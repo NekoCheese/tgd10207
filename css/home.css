@@ -46,7 +46,8 @@ main ul {
     flex-direction: column;
     max-width: 1602px;
     margin: auto;
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 main li {
@@ -88,6 +89,7 @@ main li:last-child {
 }
 
 .banner img {
+    width: 100%;
     margin: 0 auto;
 }
 

@@ -31,7 +31,7 @@
     background-color: #fff;
     color: black;
     text-align: center;
-    padding-top: 120px;
+    padding: 150px 0;
     box-sizing: border-box;
     font-weight: bold;
 }
@@ -39,8 +39,7 @@
 .banner2 div {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding-top: 60px;
+    justify-content: center;
 }
 
 .banner2 h3 {
@@ -48,7 +47,14 @@
 }
 
 .banner2 p {
+    margin: 60px;
     line-height: 1.6;
+}
+
+.banner2 img {
+    overflow: hidden;
+    height: 100%;
+    margin: 60px;
 }
 
 /* 名言 */
@@ -65,7 +71,6 @@
 
 /* 人人人人人人人人人人人人 */
 .banner4 {
-    height: 800px;
     box-sizing: border-box;
     background-color: #fff;
     color: black;
@@ -75,9 +80,18 @@
 
 .banner4 ul {
     display: flex;
-    justify-content: space-evenly;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding-top: 162px;
+}
+
+.banner4 ul li {
+    margin: 0 120px;
+}
+
+.banner4 ul li img{
+    box-shadow: 1px 1px 8px;
 }
 
 .banner4 h4 {
@@ -165,11 +179,12 @@
 
 .banner6 > input {
     background-color: #ff7300;
+    color: white;
     width: 100px;
-    height: 53px;
+    height: 50px;
     font-size: 1.6rem;
     border: none;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .banner6 span {

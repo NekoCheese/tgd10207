@@ -104,38 +104,24 @@ body::-webkit-scrollbar {
 }
 
 .all_media ul {
-    height: 1600px;
-    overflow-y: overlay;
-    overflow-x: hidden;
     background: rgb(255, 255, 255, 0.2);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    margin: 50 auto;
     padding: 50px 10px;
     border-radius: 5px;
-}
-
-.all_media ul::-webkit-scrollbar {
-    border-radius: 10px;
-    width: 8px;
-    background-color: rgba(255, 255, 255, 0.445);
-}
-
-.all_media ul::-webkit-scrollbar-thumb {
-    background-color: #303030;
 }
 
 .all_media ul li {
     display: flex;
     justify-content: center;
-    flex-grow: 1;
     margin: 0 auto;
-    height: 400px;
+    width: 500px;
     margin: 40px 10px;
 }
 
 .all_media ul li img {
+    width: 100%;
     border: 1px solid white;
 }

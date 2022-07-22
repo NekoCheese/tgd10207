@@ -145,6 +145,10 @@ textarea {
 
 /* 右側 */
 .sup_right {
+    height: 100%;
     width: 30%;
     margin: 50px;
+}
+
+.sup_right p {
 }

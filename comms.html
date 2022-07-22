@@ -10,6 +10,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css"
     />
+    <!-- 貓頭鷹 -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+    <!-- 貓頭鷹 -->
+
     <title>WEAPON MAKER-相關資訊</title>
   </head>
 
@@ -47,10 +52,25 @@
 
       <!-- 好像很厲害的名言!!!!!!!! -->
       <div class="good_saying">
-        <h2>
-          “You don’t drown by falling in the water. You drown by staying there.”
-        </h2>
-        <h3>~ Edwin Louis Cole</h3>
+        <div class="owl-carousel owl-theme good_saying">
+          <div class="item">
+            <h2>
+              “You don’t drown by falling in the water. You drown by staying
+              there.”
+            </h2>
+            <h3>~ Edwin Louis Cole</h3>
+          </div>
+          <div class="item">
+            <h2>
+              “Move swift as the Wind & closely-formed as the Wood. Attack like
+              the Fire and be still as ​the Mountain.”
+            </h2>
+          </div>
+          <div class="item">
+            <h2>"Live a life worth living, die a death worth dying for."</h2>
+            <h3>-The Way <span>武士道</span></h3>
+          </div>
+        </div>
       </div>
 
       <!-- 指南~ -->
@@ -288,6 +308,36 @@
         fjs.parentNode.insertBefore(js, fjs);
       })(document, "script", "facebook-jssdk");
     </script>
+
+    <!-- 貓頭鷹 -->
+    <script src="js_file/jquery.min.js"></script>
+    <script src="js_file/owl.carousel.min.js"></script>
+    <script src="js_file/index.js"></script>
+
+    <script>
+      // 輪播
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel();
+      });
+
+      var owl = $(".owl-carousel");
+
+      owl.owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        // animateOut: "fadeOut",
+        nav: false,
+      });
+
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        nav: false,
+      });
+    </script>
+    <!-- 貓頭鷹 -->
 
     <script
       src="https://kit.fontawesome.com/830780574d.js"

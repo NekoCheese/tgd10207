@@ -247,7 +247,7 @@ main ul li:hover div a {
 
 .wmcomms ul li:hover p {
   display: block;
-  background-color: rgb(255 255 255 / 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* 媒體頁 */

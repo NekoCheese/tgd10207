@@ -7,7 +7,7 @@
 /* 首頁大圖 */
 .head-pic img {
     display: block;
-    width: 100vw;
+    width: 100%;
     height: auto;
 }
 

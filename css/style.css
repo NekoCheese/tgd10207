@@ -205,9 +205,15 @@ main ul li {
 }
 
 main ul li:hover {
-  transform: scale(1.1);
   background-color: rgb(48 48 48);
 }
+
+main ul li:hover div a{
+    transition: all 0.5s 0s ease;
+    border: 1px solid #ff7300;
+    transform: scale(1.1);
+  }
+  
 
 /* 關於頁 about */
 .banner4 ul li {

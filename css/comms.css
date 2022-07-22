@@ -17,7 +17,7 @@ h4 {
 h4::before {
     content: "";
     position: absolute;
-    left: 15%;
+    right: 60%;
     top: 50%;
     background: #ff7300;
     width: 30%;
@@ -27,7 +27,7 @@ h4::before {
 h4::after {
     content: "";
     position: absolute;
-    right: 15%;
+    left: 60%;
     top: 50%;
     background: #ff7300;
     width: 30%;

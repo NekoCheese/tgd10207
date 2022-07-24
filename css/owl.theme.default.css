@@ -36,6 +36,12 @@
   text-align: center;
   -webkit-tap-highlight-color: transparent;
 }
+
+/* 名言-隱藏 */
+.good_saying .owl-theme .owl-dots {
+  display: none;
+}
+
 .owl-theme .owl-dots .owl-dot {
   display: inline-block;
   zoom: 1;

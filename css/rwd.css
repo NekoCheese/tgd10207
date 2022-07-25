@@ -1,3 +1,131 @@
 @media screen and (max-width: 415px) {
-  
+  .top > a {
+    margin: 0 auto;
+  }
+
+  .top > a img {
+    width: 10 0px;
+  }
+
+  .top-nav {
+    display: none;
+  }
+  main ul {
+    padding: 0;
+  }
+  main li {
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+
+  .owl-theme .owl-dots {
+    display: none;
+  }
+
+  .head-pic img {
+    
+  }
+
+  .banner div {
+    position: static;
+    padding: 20px 30px;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .banner h3 {
+    line-height: 1;
+    font-size: 1.3rem;
+    margin: 15px 0;
+  }
+
+  .banner p {
+    font-size: 0.9rem;
+  }
+
+  .banner a {
+    position: static;
+    width: 100px;
+    font-size: 1rem;
+  }
+
+  .banner1 img {
+    order: -1;
+  }
+
+  .banner3 img {
+    order: -1;
+  }
+
+  aside {
+    height: 300px;
+  }
+
+  aside h1 {
+    margin-top: 70px;
+    font-size: 1.5rem;
+  }
+
+  aside h2 {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  aside .submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+  }
+
+  aside input {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+
+  aside .send {
+    width: 100px;
+    margin: 0;
+  }
+
+  .footerUp {
+    flex-direction: column;
+    margin: 50px 20px;
+  }
+
+  .footerUp div {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .footText p {
+    font-size: 0.7rem;
+  }
+
+  .footText a {
+    font-size: 0.8rem;
+  }
+
+  .social ul {
+    width: 100%;
+  }
+
+  .footerlogo img {
+    border: none;
+    height: 40px;
+    /* display: none; */
+  }
+
+  .infor p {
+    width: 70%;
+    font-size: 0.8rem;
+  }
+
+  .infor p::before,
+  .infor p::after {
+    left: -30px;
+  }
 }

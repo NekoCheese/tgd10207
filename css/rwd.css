@@ -1,4 +1,12 @@
 @media screen and (max-width: 415px) {
+  #home_for_pc {
+    display: none;
+  }
+
+  #home_for_mobile {
+    display: block;
+  }
+
   .top > a {
     margin: 0 auto;
   }
@@ -24,7 +32,7 @@
   }
 
   .head-pic img {
-    
+    width: 1920px;
   }
 
   .banner div {

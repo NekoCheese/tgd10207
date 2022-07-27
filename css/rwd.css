@@ -22,6 +22,30 @@
 
     .RWD_list i {
         display: block;
+        font-size: 2rem;
+    }
+
+    .RWD_list {
+        position: absolute;
+        right: 30px;
+    }
+    
+    .top .forRWD {
+        display: none;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.3);
+        right: -150px;
+        top: 56px;
+        z-index: 999;
+    }
+    
+    .top .forRWD a {
+        display: flex;
+        height: 25px;
+        justify-content: center;
+        text-align: center;
+        width: 200px;
+        margin: 20px;
     }
 
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~首頁~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

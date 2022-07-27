@@ -249,4 +249,38 @@
   .infor p::after {
     left: -30px;
   }
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~作品~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  .search-wrp {
+    justify-content: center;
+  }
+
+  .search_box {
+    display: flex;
+  }
+
+  .search_box input {
+    margin: auto;
+    width: 50%;
+  }
+
+  .search-wrp .time_hot .hot {
+    display: none;
+  }
+
+  .search-wrp .time_hot .time {
+    display: none;
+  }
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~資訊~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  .com_video iframe {
+    width: 100%;
+  }
+  .com_video ul {
+    flex-direction: column;
+  }
+
+  .wmcomms ul li {
+    width: 100%;
+  }
 }

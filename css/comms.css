@@ -116,7 +116,7 @@ h4::after {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .wmcomms ul li {
@@ -126,14 +126,25 @@ h4::after {
 }
 
 .wmcomms ul li {
-    outline: 2px solid black;
-    outline-offset: -2px;
+    outline: 3px solid black;
+    outline-offset: -3px;
     text-align: center;
 }
 
-.wmcomms ul li p {
+.wmcomms ul li div {
     display: none;
+    position: relative;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.wmcomms ul li p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 48%;
+    margin: 0 30px;
+    /* display: none; */
 }
 
 .wmcomms .social1 {

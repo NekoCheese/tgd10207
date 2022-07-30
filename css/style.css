@@ -204,9 +204,9 @@ footer ul {
   transform: rotate(90deg);
 }
 
-.RWD_list i:hover ~ .forRWD {
+/* .RWD_list i:hover ~ .forRWD {
     display: block;
-}
+} */
 
 /* 頁腳 */
 .social ul li a {

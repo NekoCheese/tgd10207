@@ -29,6 +29,10 @@
         position: absolute;
         right: 30px;
     }
+
+    .RWD_list .-on {
+        display: block;
+    }
     
     .top .forRWD {
         display: none;

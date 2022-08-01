@@ -1,127 +1,114 @@
 /* 麵包屑 */
 .top-nav a:nth-child(3) {
-    color: #ff7300;
-}
-/* 麵包屑 */
-
-body {
-}
-
-.page-wrapper {
-}
-
-.media {
-    /* max-height: 800px; */
-}
-/* 隱藏滾動條................ */
-body::-webkit-scrollbar {
-    /* display: none; */
+  color: #ff7300;
 }
 
 /* 搜尋欄 */
 .search-wrp {
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    height: 100px;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
 }
 
 .search_box {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .search_box::after {
-    content: "\f002";
-    color: rgb(255, 255, 255);
-    font-weight: 800;
-    font-size: 1.5rem;
+  content: "\f002";
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 1.5rem;
 }
 
 .search_box input {
-    width: 460px;
-    margin-left: 40px;
-    background-color: rgb(255 255 255 / 0%);
-    border-width: 0;
-    border-bottom: 2px solid #ff7300;
-    color: white;
-    font-size: 2rem;
-    outline: none;
+  width: 460px;
+  margin-left: 40px;
+  background-color: rgb(255 255 255 / 0%);
+  border-width: 0;
+  border-bottom: 2px solid #ff7300;
+  color: white;
+  font-size: 2rem;
+  outline: none;
 }
 
 /* 側邊紐 */
 
 .search-wrp .time_hot {
-    display: flex;
-    width: auto;
-    position: relative;
-    text-align: center;
+  display: flex;
+  width: auto;
+  position: relative;
+  text-align: center;
 }
 
 .search-wrp .time_hot span {
-    width: 100px;
+  width: 100px;
 }
 
 .search-wrp .time_hot span > input {
-    width: 50px;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: none;
+  width: 50px;
+  height: 25px;
+  /* border-radius: 5px; */
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
 }
 
 .search-wrp .time_hot div {
-    margin-top: 5px;
-    display: none;
+  margin-top: 5px;
+  display: none;
 }
 
 .search-wrp .time_hot div input {
-    background-color: rgba(48, 48, 48, 0.7);
-    color: white;
-    padding: 10px;
-    border: none;
-    width: 100%;
+  background-color: rgba(48, 48, 48, 0.7);
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
 }
 
 .search-wrp .time_hot .hot {
-    position: absolute;
-    right: 300px;
+  position: absolute;
+  right: 300px;
 }
 
 .search-wrp .time_hot .time {
-    position: absolute;
-    right: 100px;
+  position: absolute;
+  right: 100px;
 }
 
 /* TTTTIIIITTTTLLLLEEEE */
 
 .media h2 {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* 圖 */
 .media .all_media {
-    margin: 50px 50px;
+  background: rgb(255, 255, 255, 0.2);
+  margin: 20px 20px;
+  padding: 20px 20px;
+  columns: 4;
 }
 
 .all_media ul {
-    background: rgb(255, 255, 255, 0.2);
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 50px 10px;
-    border-radius: 5px;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
+  align-items: center;
+  border-radius: 5px;
 }
 
 .all_media ul li {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    width: 500px;
-    margin: 40px 10px;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .all_media ul li img {
-    width: 100%;
-    border: 1px solid white;
+  width: 100%;
+  border: 1px solid white;
 }

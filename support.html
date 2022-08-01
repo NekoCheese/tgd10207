@@ -56,9 +56,10 @@
           <form action="#">
             <div class="form_top">
               <div>
-                <div class="name">
+                <div class="names">
                   <span>姓名<span class="red">*</span></span>
-                  <input type="text" name="" id="" placeholder="Name" />
+                  <input type="text" name="" id="names" placeholder="Name" maxlength="10"/>
+                  <div class="error"></div>
                 </div>
 
                 <div class="phone">
@@ -73,9 +74,10 @@
                   <input
                     type="text"
                     name=""
-                    id=""
+                    id="email"
                     placeholder="email@example.com"
                   />
+                  <div class="error"></div>
                 </div>
 
                 <div class="city">
@@ -99,23 +101,25 @@
 
                 <div class="type">
                   <span>問題類型<span class="red">*</span></span>
-                  <select name="pets">
-                    <option value="" disabled selected>請選擇</option>
-                    <option value="">註冊相關</option>
-                    <option value="">交易問題</option>
-                    <option value="">安全疑慮</option>
-                    <option value="">配送方式</option>
-                    <option value="">法律規範</option>
-                    <option value="">安全問題</option>
-                    <option value="">其他</option>
+                  <select name="pets" id="select_pgm">
+                    <option value="請選擇" disabled selected>請選擇</option>
+                    <option value="註冊相關">註冊相關</option>
+                    <option value="交易問題">交易問題</option>
+                    <option value="安全疑慮">安全疑慮</option>
+                    <option value="配送方式">配送方式</option>
+                    <option value="法律規範">法律規範</option>
+                    <option value="安全問題">安全問題</option>
+                    <option value="其他">其他</option>
                   </select>
+                  <div class="error"></div>
                 </div>
               </div>
             </div>
 
             <div class="form_med">
               <span class="QA">問題/評論<span class="red">*</span></span>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+              <div class="error"></div>
             </div>
 
             <div class="form_btm">
@@ -132,7 +136,10 @@
                 />本表單蒐集之個人資料，僅限於專題展示使用，非經當事人同意，不轉做其他用途。</label
               >
 
-              <input type="submit" value="送出" />
+              <div class="submit">
+                <input type="submit" value="送出" />
+                <div id="error"></div>
+              </div>
             </div>
           </form>
         </div>
@@ -255,7 +262,7 @@
           <!-- Tibame -->
           <div class="footText">
             <p>
-              本網站為緯育TibaMe前端工程師班第78期學員專題作品，本平台僅供學習、展示之用。<br />
+              本網站為緯育TibaMe前端工程師班第78期學員專題作品，本平台僅供學習、展示之用。
               若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。
             </p>
 

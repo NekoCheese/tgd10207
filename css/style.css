@@ -200,10 +200,6 @@ footer ul {
   transition: all .4s;
 }
 
-.RWD_list i:hover {
-  /* transform: rotate(90deg); */
-}
-
 #RWD_list.-on .forRWD{
     display: block;
 }
@@ -288,7 +284,7 @@ main ul li:hover div a {
 }
 
 .all_media ul li:hover {
-    transform: scale(1.2);
+    transform: scale(1.03);
 }
 
 /* 聯絡頁 */

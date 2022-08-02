@@ -131,31 +131,35 @@
 
                 <h3>訂閱WEAPON MAKER</h3>
 
-                <ul>
-                    <li>
-                        <h4>名字<span>
-                                *</span></h4>
-                        <input type="text">
-                    </li>
-
-                    <li>
-                        <h4>姓氏<span>
-                                *</span></h4>
-                        <input type="text">
-                    </li>
-
-                    <li>
-                        <h4>電子郵件<span>
-                                *</span></h4>
-                        <input type="email">
-                        <p>
-                            <span>*
-                            </span>表示必填字段
-                        </p>
-                    </li>
-                </ul>
-
-                <input type="submit" value="送出">
+                <form action="#">
+                    <ul>
+                        <li>
+                            <h4>名字<span>
+                                    *</span></h4>
+                            <input type="text">
+                        </li>
+    
+                        <li>
+                            <h4>姓氏<span>
+                                    *</span></h4>
+                            <input type="text">
+                        </li>
+    
+                        <li>
+                            <h4>電子郵件<span>
+                                    *</span></h4>
+                            <input type="email" id="email">
+                            
+                            <p>
+                                <span>*
+                                </span>表示必填字段
+                            </p>
+                        </li>
+                    </ul>
+    
+                    <input type="submit" value="送出">
+                    <div class="error"></div>
+                </form>
 
             </div>
 

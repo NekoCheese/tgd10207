@@ -98,6 +98,7 @@ form .form_top div > div {
   background-size: 10%;
 
   text-align: center;
+  cursor: pointer;
 }
 
 .form_btm .show_file p {
@@ -109,6 +110,14 @@ form .form_top div > div {
 }
 
 .form_btm input {
+  display: none;
+}
+
+#blah {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
   display: none;
 }
 

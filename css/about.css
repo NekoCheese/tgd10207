@@ -1,193 +1,207 @@
 /* 麵包屑 */
 .top-nav a:nth-child(2) {
-    color: #ff7300;
+  color: #ff7300;
 }
 /* 麵包屑 */
 
 .page-wrapper .wrapper {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 /* ABOUT */
 .banner1 {
-    background-image: url(../img/about_img/ab_ba1.jpg);
+  background-image: url(../img/about_img/ab_ba1.jpg);
 }
 
 .banner1 h1 {
-    display: flex;
-    height: 800px;
-    align-items: center;
-    justify-content: center;
-    font-size: 10rem;
-    letter-spacing: 30px;
+  display: flex;
+  height: 800px;
+  align-items: center;
+  justify-content: center;
+  font-size: 10rem;
+  letter-spacing: 30px;
 }
 
 /* 理念 */
 .banner2 {
-    height: 800px;
-    background-color: #fff;
-    color: black;
-    text-align: center;
-    padding: 150px 0;
-    box-sizing: border-box;
-    font-weight: bold;
+  height: 800px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  padding: 150px 0;
+  box-sizing: border-box;
+  font-weight: bold;
 }
 
 .banner2 div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner2 h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .banner2 p {
-    margin: 60px;
-    line-height: 1.6;
+  margin: 60px;
+  line-height: 1.6;
 }
 
 .banner2 img {
-    overflow: hidden;
-    height: 100%;
-    margin: 60px;
+  overflow: hidden;
+  height: 100%;
+  margin: 60px;
 }
 
 /* 名言 */
 .banner3 {
-    background-image: url(../img/about_img/ab_ba2.jpg);
+  background-image: url(../img/about_img/ab_ba2.jpg);
 }
 
 .banner3 h2 {
-    display: flex;
-    height: 800px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  height: 800px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 人人人人人人人人人人人人 */
 .banner4 {
-    box-sizing: border-box;
-    background-color: #fff;
-    color: black;
-    font-weight: bold;
-    line-height: 1.6;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+  line-height: 1.6;
 }
 
 .banner4 ul {
-    display: flex;
-    height: 800px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .banner4 ul li {
-    margin: 0 120px;
+  margin: 0 120px;
 }
 
-.banner4 ul li img{
-    box-shadow: 1px 1px 8px;
+.banner4 ul li img {
+  box-shadow: 1px 1px 8px;
 }
 
 .banner4 h4 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /* YOOOOOOOOOOOOOOOOOOOOOUTUBE */
 
 .banner5 {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .banner5 ul {
-    display: flex;
-    justify-content: space-evenly;
-    height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 800px;
 }
 
 .banner5 ul li {
-    display: flex;
-    align-items: center;
-    color: rgb(235 235 235 / 50%);
-    font-weight: 800;
-    font-size: 4rem;
+  display: flex;
+  align-items: center;
+  color: rgb(235 235 235 / 50%);
+  font-weight: 800;
+  font-size: 4rem;
 }
 
 .banner5 iframe {
-    width: 100vh;
-    height: 56.25vh;
-    margin: 0 80px;
+  width: 100vh;
+  height: 56.25vh;
+  margin: 0 80px;
 }
 
 .videoM::after {
-    content: "\f138";
+  content: "\f138";
 }
 
 .videoM::before {
-    content: "\f137";
+  content: "\f137";
 }
 
 /* 訂閱訂閱訂閱訂閱訂閱訂閱訂閱訂閱訂閱訂閱訂閱訂閱訂閱 */
 
 .banner6 {
-    height: 800px;
-    background-image: url(../img/about_img/ab_ba3.jpg);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  height: 800px;
+  background-image: url(../img/about_img/ab_ba3.jpg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .banner6 ul {
-    display: flex;
-    text-align: left;
+  display: flex;
+  text-align: left;
 }
 
 .banner6 ul li {
-    margin: 0 35px;
+  margin: 0 35px;
 }
 
 .banner6 li input {
-    width: 300px;
-    height: 50px;
-    margin: 10px 0;
-    background-color: rgb(255 255 255 / 0%);
-    border: 2px solid white;
-    border-radius: 5px;
-    color: white;
-    font-size: 2rem;
+  width: 300px;
+  height: 50px;
+  margin: 10px 0;
+  background-color: rgb(255 255 255 / 0%);
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  font-size: 2rem;
 }
 
 .banner6 h3 {
-    font-size: 4rem;
-    font-weight: bold;
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 .banner6 h4 {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .banner6 p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-.banner6 > input {
-    background-color: #ff7300;
-    color: white;
-    width: 100px;
-    height: 50px;
-    font-size: 1.6rem;
-    border: none;
-    /* font-weight: bold; */
+.banner6 form {
+  position: relative;
+}
+
+.banner6 form > input {
+  background-color: #ff7300;
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 1.6rem;
+  border: none;
+  /* font-weight: bold; */
 }
 
 .banner6 span {
-    color: red;
-    font-size: 2rem;
+  color: red;
+  font-size: 2rem;
+}
+
+.banner6 .error {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: bold;
+  left: 0;
+  right: 0;
+  top: 220px;
+  color: red;
 }

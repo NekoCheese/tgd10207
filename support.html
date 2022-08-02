@@ -58,7 +58,13 @@
               <div>
                 <div class="names">
                   <span>姓名<span class="red">*</span></span>
-                  <input type="text" name="" id="names" placeholder="Name" maxlength="10"/>
+                  <input
+                    type="text"
+                    name=""
+                    id="names"
+                    placeholder="Name"
+                    maxlength="10"
+                  />
                   <div class="error"></div>
                 </div>
 
@@ -124,8 +130,11 @@
 
             <div class="form_btm">
               <span class="file">檔案上傳</span>
-              <div class="show_file"><p>請將檔案放於此處</p></div>
-              <input type="file" />
+              <div class="show_file">
+                <img id="blah" src="#" />
+                <p>請將檔案放於此處</p>
+              </div>
+              <input type="file" accept="image/*" id="imgInp" />
             </div>
 
             <div class="agree">

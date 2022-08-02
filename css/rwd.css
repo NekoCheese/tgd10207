@@ -1,511 +1,521 @@
 @media screen and (max-width: 415px) {
-    /* 導覽列 */
-    .top {
-    }
-
-    .top > a {
-        margin: 0 auto;
-    }
-
-    .top > a img {
-        width: 10 0px;
-    }
-
-    .top .forPC {
-        display: none;
-    }
-
-    .top-nav a:hover {
-        padding-bottom: 0;
-        border-bottom: none;
-    }
-
-    .RWD_list i {
-        display: block;
-        font-size: 2rem;
-    }
-
-    .RWD_list {
-        position: absolute;
-        right: 30px;
-    }
-
-    .RWD_list .-on {
-        display: block;
-    }
-    
-    .top .forRWD {
-        display: none;
-        position: absolute;
-        background-color: rgba(255, 255, 255, 0.3);
-        right: -150px;
-        top: 56px;
-        z-index: 999;
-    }
-    
-    .top .forRWD a {
-        display: flex;
-        height: 25px;
-        justify-content: center;
-        text-align: center;
-        width: 200px;
-        margin: 20px;
-    }
-
-    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~首頁~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-    #home_for_pc {
-        display: none;
-    }
-
-    #home_for_mobile {
-        display: block;
-    }
-
-    main ul {
-        padding: 0;
-    }
-    main li {
-        flex-direction: column;
-        text-align: center;
-        margin: 0;
-    }
-
-    .owl-theme .owl-dots {
-        display: none;
-    }
-
-    .head-pic img {
-        width: 1920px;
-    }
-
-    .banner div {
-        position: static;
-        padding: 20px 30px;
-    }
-
-    .banner img {
-        width: 100%;
-    }
-
-    .banner h3 {
-        line-height: 1;
-        font-size: 1.3rem;
-        margin: 15px 0;
-    }
-
-    .banner p {
-        font-size: 0.9rem;
-    }
-
-    .banner a {
-        position: static;
-        width: 100px;
-        font-size: 1rem;
-    }
-
-    .banner1 img {
-        order: -1;
-    }
-
-    .banner3 img {
-        order: -1;
-    }
-
-    aside {
-        height: 300px;
-    }
-
-    aside h1 {
-        margin-top: 70px;
-        font-size: 1.5rem;
-    }
-
-    aside h2 {
-        font-size: 0.9rem;
-        margin-top: 10px;
-    }
-
-    aside .submit {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 30px 0px;
-    }
-
-    aside input {
-        margin-bottom: 20px;
-        font-size: 1rem;
-    }
-
-    aside .send {
-        width: 100px;
-        margin: 0;
-    }
-
-    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ABOUT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-    .page-wrapper .wrapper {
-        background-attachment: unset;
-    }
-
-    .about_page h1 {
-        font-size: 4rem;
-    }
-
-    .about_page h2 {
-        font-size: 1rem;
-    }
-
-    .about_page h3 {
-        font-size: 1rem;
-    }
-
-    .about_page p {
-        font-size: 0.5rem;
-    }
-
-    .about_page ul li p {
-        font-size: 1rem;
-    }
-
-    .banner1 {
-        justify-content: center;
-    }
-
-    .banner1 h1 {
-        letter-spacing: 15px;
-        height: 400px;
-    }
-
-    .about .banner2 {
-        padding: 50px 0;
-        height: auto;
-    }
-
-    .about .banner2 img {
-        margin: 20px;
-        width: 80%;
-    }
-
-    .about .banner2 div {
-        flex-direction: column;
-    }
-
-    .about .banner2 h3 {
-        margin: 0 20px;
-    }
-
-    .about .banner2 p {
-        margin: 10px;
-    }
-
-    .about .banner3 {
-        background-position-x: -525px;
-    }
-
-    .about .banner3 h2 {
-        font-size: 1.4rem;
-        letter-spacing: 5px;
-        writing-mode: vertical-lr;
-        margin: 0 auto;
-    }
-
-    .about .banner4 ul {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .about .banner4 ul li {
-        margin: 50px 0;
-    }
-
-    .about .banner4 ul li img {
-        width: 80%;
-        box-shadow: none;
-    }
-
-    .about .banner5 ul {
-        flex-direction: column;
-        height: 100%;
-    }
-
-    .about .banner5 ul li {
-        margin: 15px 0;
-    }
-
-    .about .banner5 iframe {
-        width: auto;
-        height: auto;
-        margin: auto;
-    }
-
-    .videoM::before,
-    .videoM::after {
-        display: none;
-    }
-
-    .about .banner6 h3 {
-        font-size: 1.4rem;
-    }
-
-    .about .banner6 ul {
-        flex-direction: column;
-    }
-
-    .about .banner6 > input {
-        width: 70%;
-        height: 40px;
-        margin-bottom: 30px;
-        border-radius: 5px;
-    }
-
-    .infor p {
-        width: 70%;
-        font-size: 0.8rem;
-    }
-
-    .infor p::before,
-    .infor p::after {
-        left: -30px;
-    }
-
-    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~作品~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-    .search-wrp {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .search_box {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 20px;
-    }
-
-    .search_box input {
-        width: 50%;
-        margin-left: 20px;
-    }
-
-    .search-wrp .time_hot .hot {
-        right: 30px;
-        /* display: none; */
-    }
-
-    .search-wrp .time_hot .time {
-        right: -130px;
-        /* display: none; */
-    }
-
-    .media h2 {
-        margin-top: 50px;
-    }
-
-    .media .all_media {
-        columns: 1;
-        margin: 20px 0;
-    }
-
-    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~資訊~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-    .top_img {
-        position: relative;
-        width: 414px;
-        height: 400px;
-        overflow: hidden;
-    }
-    .top_img img {
-        display: block;
-        width: 1000px;
-        position: absolute;
-        left: -282px;
-        top: -37px;
-    }
-
-    .good_saying {
-        height: auto;
-        width: 100%;
-        margin-top: 0;
-    }
-
-    .good_saying h2 {
-        font-size: 1.3rem;
-    }
-
-    .good_saying h3 {
-        font-size: 1.2rem;
-    }
-
-    .intel {
-        margin: 15px auto;
-    }
-
-    .intel ul {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .intel ul li {
-        width: 100%;
-        height: 450px;
-        margin: 0 auto;
-    }
-
-    .intel ul li img {
-        width: 100%;
-    }
-
-    .intel h2 {
-        font-size: 1.8rem;
-    }
-
-    .intel h4 {
-        margin-bottom: 25px;
-    }
-
-    .com_video {
-        width: 100%;
-    }
-
-    .com_video h4 {
-        margin-top: 30px;
-    }
-
-    .com_video iframe {
-        width: 100%;
-        margin: 40px 0;
-    }
-    .com_video ul {
-        flex-direction: column;
-    }
-
-    .wmcomms h4 {
-        margin-bottom: 20px;
-    }
-
-    .wmcomms h4::after {
-        width: 15%;
-        left: 75%;
-    }
-    .wmcomms h4::before {
-        width: 15%;
-        right: 75%;
-    }
-
-    .wmcomms ul {
-        width: 100vw;
-    }
-
-    .wmcomms ul li {
-        width: 100%;
-        margin: 15px;
-        background-position: center;
-    }
-
-    .wmcomms ul li p {
-        /* display: block; */
-    }
-
-    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~聯絡~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-    .sup_wrp {
-        width: 85%;
-        flex-direction: column-reverse;
-    }
-
-    form .form_top {
-    }
-
-    form .form_top div {
-        flex-wrap: wrap;
-    }
-
-    form .form_top div > div {
-        flex-wrap: nowrap;
-    }
-
-    .sup_right {
-        width: auto;
-        margin: 0;
-    }
-
-    .sup_right p {
-        line-height: 20px;
-    }
-
-    .sup_left {
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
-    }
-
-    .sup_left > h2 {
-        text-align: center;
-    }
-
-    .sup_left > p {
-        text-align: center;
-        font-size: 1.1rem;
-    }
-
-    .form_med {
-        width: 85%;
-    }
-
-    .form_btm .show_file {
-        width: 95%;
-    }
-
-    .agree {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .agree > input {
-        width: 100%;
-        height: 40px;
-
-        margin-top: 30px;
-        padding-left: 0;
-    }
-
-    .agree #error {
-        width: 350px;
-        text-align: center;
-        left: -150px;
-    }
-
-    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~頁角~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-    .footerUp {
-        flex-direction: column;
-        height: auto;
-        margin: 50px 20px;
-    }
-
-    .footerUp div {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-
-    .footText p {
-        /* text-align: left; */
-        font-size: 0.7rem;
-    }
-
-    .footText a {
-        font-size: 0.8rem;
-    }
-
-    .social ul {
-        width: 100%;
-    }
-
-    .footerlogo img {
-        border: none;
-        height: 40px;
-        /* display: none; */
-    }
+  /* 導覽列 */
+  .top {
+  }
+
+  .top > a {
+    margin: 0 auto;
+  }
+
+  .top > a img {
+    width: 10 0px;
+  }
+
+  .top .forPC {
+    display: none;
+  }
+
+  .top-nav a:hover {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .RWD_list i {
+    display: block;
+    font-size: 2rem;
+  }
+
+  .RWD_list {
+    position: absolute;
+    right: 30px;
+  }
+
+  .RWD_list .-on {
+    display: block;
+  }
+
+  .top .forRWD {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    right: -150px;
+    top: 56px;
+    z-index: 999;
+  }
+
+  .top .forRWD a {
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+  }
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~首頁~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+  #home_for_pc {
+    display: none;
+  }
+
+  #home_for_mobile {
+    display: block;
+  }
+
+  main ul {
+    padding: 0;
+  }
+  main li {
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+
+  .owl-theme .owl-dots {
+    display: none;
+  }
+
+  .head-pic img {
+    width: 1920px;
+  }
+
+  .banner div {
+    position: static;
+    padding: 20px 30px;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .banner h3 {
+    line-height: 1;
+    font-size: 1.3rem;
+    margin: 15px 0;
+  }
+
+  .banner p {
+    font-size: 0.9rem;
+  }
+
+  .banner a {
+    position: static;
+    width: 100px;
+    font-size: 1rem;
+  }
+
+  .banner1 img {
+    order: -1;
+  }
+
+  .banner3 img {
+    order: -1;
+  }
+
+  aside {
+    height: 300px;
+  }
+
+  aside h1 {
+    margin-top: 70px;
+    font-size: 1.5rem;
+  }
+
+  aside h2 {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  aside .submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+  }
+
+  aside input {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+
+  aside .send {
+    width: 100px;
+    margin: 0;
+  }
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ABOUT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+  .page-wrapper .wrapper {
+    background-attachment: unset;
+  }
+
+  .about_page h1 {
+    font-size: 4rem;
+  }
+
+  .about_page h2 {
+    font-size: 1rem;
+  }
+
+  .about_page h3 {
+    font-size: 1rem;
+  }
+
+  .about_page p {
+    font-size: 0.5rem;
+  }
+
+  .about_page ul li p {
+    font-size: 1rem;
+  }
+
+  .banner1 {
+    justify-content: center;
+  }
+
+  .banner1 h1 {
+    letter-spacing: 15px;
+    height: 400px;
+  }
+
+  .about .banner2 {
+    padding: 50px 0;
+    height: auto;
+  }
+
+  .about .banner2 img {
+    margin: 20px;
+    width: 80%;
+  }
+
+  .about .banner2 div {
+    flex-direction: column;
+  }
+
+  .about .banner2 h3 {
+    margin: 0 20px;
+  }
+
+  .about .banner2 p {
+    margin: 10px;
+  }
+
+  .about .banner3 {
+    background-position-x: -525px;
+  }
+
+  .about .banner3 h2 {
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+    writing-mode: vertical-lr;
+    margin: 0 auto;
+  }
+
+  .about .banner4 ul {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .about .banner4 ul li {
+    margin: 50px 0;
+  }
+
+  .about .banner4 ul li img {
+    width: 80%;
+    box-shadow: none;
+  }
+
+  .about .banner5 ul {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .about .banner5 ul li {
+    margin: 15px 0;
+  }
+
+  .about .banner5 iframe {
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+
+  .videoM::before,
+  .videoM::after {
+    display: none;
+  }
+
+  .about .banner6 h3 {
+    font-size: 1.4rem;
+  }
+
+  .about .banner6 ul {
+    flex-direction: column;
+  }
+
+  .about .banner6 > input {
+    width: 70%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+
+  .about .banner6 .error {
+    top: 450px;
+  }
+
+  .infor p {
+    width: 70%;
+    font-size: 0.8rem;
+  }
+
+  .infor p::before,
+  .infor p::after {
+    left: -30px;
+  }
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~作品~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+  .search-wrp {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .search_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+
+  .search_box input {
+    width: 50%;
+    margin-left: 20px;
+  }
+
+  .search-wrp .time_hot .hot {
+    right: 30px;
+    /* display: none; */
+  }
+
+  .search-wrp .time_hot .time {
+    right: -130px;
+    /* display: none; */
+  }
+
+  .media h2 {
+    margin-top: 50px;
+  }
+
+  .media .all_media {
+    columns: 1;
+    margin: 20px 0;
+  }
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~資訊~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+  .top_img {
+    position: relative;
+    width: 414px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .top_img img {
+    display: block;
+    width: 1000px;
+    position: absolute;
+    left: -282px;
+    top: -37px;
+  }
+
+  .good_saying {
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .good_saying h2 {
+    font-size: 1.3rem;
+  }
+
+  .good_saying h3 {
+    font-size: 1.2rem;
+  }
+
+  .intel {
+    margin: 15px auto;
+  }
+
+  .intel ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .intel ul li {
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+  }
+
+  .intel ul li img {
+    width: 100%;
+  }
+
+  .intel h2 {
+    font-size: 1.8rem;
+  }
+
+  .intel h4 {
+    margin-bottom: 25px;
+  }
+
+  .com_video {
+    width: 100%;
+  }
+
+  .com_video h4 {
+    margin-top: 30px;
+  }
+
+  .com_video iframe {
+    width: 100%;
+    margin: 40px 0;
+  }
+  .com_video ul {
+    flex-direction: column;
+  }
+
+  .wmcomms h4 {
+    margin-bottom: 20px;
+  }
+
+  .wmcomms h4::after {
+    width: 15%;
+    left: 75%;
+  }
+  .wmcomms h4::before {
+    width: 15%;
+    right: 75%;
+  }
+
+  .wmcomms ul {
+    width: 100vw;
+  }
+
+  .wmcomms ul li {
+    width: 100%;
+    margin: 15px;
+    background-position: center;
+  }
+
+  .wmcomms ul li p {
+    /* display: block; */
+  }
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~聯絡~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+  .sup_wrp {
+    width: 85%;
+    flex-direction: column-reverse;
+  }
+
+  form .form_top {
+  }
+
+  form .form_top div {
+    flex-wrap: wrap;
+  }
+
+  form .form_top div > div {
+    flex-wrap: nowrap;
+  }
+
+  .sup_right {
+    width: auto;
+    margin: 0;
+  }
+
+  .sup_right p {
+    line-height: 20px;
+  }
+
+  .sup_left {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+
+  .sup_left > h2 {
+    text-align: center;
+  }
+
+  .sup_left > p {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .form_med {
+    width: 85%;
+  }
+
+  .form_btm .show_file {
+    width: 95%;
+  }
+
+  .agree {
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .agree .submit {
+    width: 50%;
+  }
+
+  .agree .submit input {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 0;
+  }
+
+  .agree #error {
+    position: absolute;
+    width: 200%;
+    top: 80px;
+    left: -50%;
+    text-align: center;
+  }
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~頁角~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+  .footerUp {
+    flex-direction: column;
+    height: auto;
+    margin: 50px 20px;
+  }
+
+  .footerUp div {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .footText p {
+    /* text-align: left; */
+    font-size: 0.7rem;
+  }
+
+  .footText a {
+    font-size: 0.8rem;
+  }
+
+  .social ul {
+    width: 100%;
+  }
+
+  .footerlogo img {
+    border: none;
+    height: 40px;
+    /* display: none; */
+  }
 }

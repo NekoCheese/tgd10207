@@ -122,6 +122,19 @@ $(".show_file").click(function (e) {
   };
 });
 
-// $('.media li').click(function(){
-//   this.
-// })
+// LIGHTBOX
+$(".lightbox").click(function () {
+  var imgsrc = $(this).attr("src");
+  $("body").append(
+    "<div class='img-popup'><span class='close-lightbox'>&times;</span><img src='" +
+      imgsrc +
+      "'></div>"
+  );
+  $(".close-lightbox, .img-popup").click(function () {
+    $(".img-popup")
+      .fadeOut(500, function () {
+        $(this).remove();
+      })
+      .addClass("lightboxfadeout");
+  });
+});

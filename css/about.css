@@ -149,8 +149,13 @@
   text-align: left;
 }
 
+
 .banner6 ul li {
   margin: 0 35px;
+}
+
+.banner6 ul li:last-child{
+  margin-top: -12px;
 }
 
 .banner6 li input {
@@ -161,7 +166,7 @@
   border: 2px solid white;
   border-radius: 5px;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .banner6 h3 {

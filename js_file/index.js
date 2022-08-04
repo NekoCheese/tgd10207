@@ -56,13 +56,13 @@ $(".sup_wrp form").submit(function (e) {
     error_msg = error_msg + " 姓名資料 ";
   }
 
-  if ($("#textarea").val() == "") {
-    error_msg = error_msg + " 未填寫問題內容 ";
-  }
-
   // 問題類型不為空
   if ($("#select_pgm").val() == null) {
     error_msg = error_msg + " 問題類型 ";
+  }
+
+  if ($("#textarea").val() == "") {
+    error_msg = error_msg + " 未填寫問題內容 ";
   }
 
   if (!$("#agree").is(":checked")) {
@@ -124,11 +124,10 @@ $(".show_file").click(function (e) {
 
 // LIGHTBOX
 $(".lightbox").click(function () {
-  var imgsrc = $(this).attr("src");
+  let imgsrc = $(this).attr("src");
   $("body").append(
-    "<div class='img-popup'><span class='close-lightbox'>&times;</span><img src='" +
-      imgsrc +
-      "'></div>"
+    "<div class='img-popup'><h2></h2><span class='close-lightbox'>&times;</span><img src='" +
+      imgsrc + "'></div>"
   );
   $(".close-lightbox, .img-popup").click(function () {
     $(".img-popup")
@@ -139,7 +138,7 @@ $(".lightbox").click(function () {
   });
 });
 
-// 載入頁面前的動畫
-window.addEventListener("load",function(){
-  document.querySelector(".loading").remove()
-})
+// 移除載入頁面前的圖片
+window.addEventListener("load", function () {
+  document.querySelector(".loading").remove();
+});

@@ -3,70 +3,70 @@
 /* -------------------參數------------------- */
 
 body {
-    width: 100%;
-    background-color: #2b2b2b;
-    background-image: url("../img/carbon-fibre-bg.png");
-    color: white;
-    font-size: 16px;
-    overflow-x: hidden;
-    font-family: Arial, "Font Awesome 5 Free";
+  width: 100%;
+  background-color: #2b2b2b;
+  background-image: url("../img/carbon-fibre-bg.png");
+  color: white;
+  font-size: 16px;
+  overflow-x: hidden;
+  font-family: Arial, "Font Awesome 5 Free";
 }
 
 .page-wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 p {
-    font-size: 1.2rem;
-    line-height: 30px;
+  font-size: 1.2rem;
+  line-height: 30px;
 }
 
 a {
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
 }
 
 /* -------------------------------導覽列------------------------------- */
 .top {
-    display: flex;
-    flex-grow: 0;
-    justify-content: space-between;
-    position: relative;
-    background-color: #303030;
-    height: 80px;
-    width: 100%;
-    /* min-width: 1380px; */
-    align-items: center;
+  display: flex;
+  flex-grow: 0;
+  justify-content: space-between;
+  position: relative;
+  background-color: #303030;
+  height: 80px;
+  width: 100%;
+  /* min-width: 1380px; */
+  align-items: center;
 }
 
 .top > a {
-    margin-left: 90px;
+  margin-left: 90px;
 }
 
 .top > a img {
-    display: block;
+  display: block;
 }
 
 .top-nav a {
-    margin: 0 23px;
+  margin: 0 23px;
 }
 
 .top-nav:last-child {
-    margin-right: 120px;
+  margin-right: 120px;
 }
 
 /* -------導覽列 (RWD)--------- */
@@ -76,114 +76,113 @@ a {
   font-size: 2rem;
 }
 
-
 /* FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOTER */
 
 footer {
-    background-color: #444;
+  background-color: #444;
 }
 
 .footerUp {
-    display: flex;
-    align-items: center;
-    height: 300px;
-    width: auto;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: auto;
 }
 
 .footerUp div {
-    width: 33.333333%;
+  width: 33.333333%;
 }
 
 .social ul {
-    width: 50%;
-    justify-content: center;
-    border-bottom: 1px solid white;
-    padding-bottom: 10px;
-    margin: auto;
+  width: 50%;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  margin: auto;
 }
 
 .social ul li {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .social li .fa-brands {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 /* FOOTERLOGO */
 .footerlogo img {
-    display: block;
-    border: 1px solid white;
-    margin: auto;
-    margin-top: 10px;
+  display: block;
+  border: 1px solid white;
+  margin: auto;
+  margin-top: 10px;
 }
 
 .footText {
-    text-align: center;
+  text-align: center;
 }
 
 .footText p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .footText a {
-    font-size: 1rem;
-    display: block;
-    width: 100px;
-    margin: auto;
-    color: #ff7300;
+  font-size: 1rem;
+  display: block;
+  width: 100px;
+  margin: auto;
+  color: #ff7300;
 }
 
 .infor p {
-    width: 50%;
-    font-size: 0.9rem;
-    margin: auto;
-    position: relative;
+  width: 50%;
+  font-size: 0.9rem;
+  margin: auto;
+  position: relative;
 }
 
 .infor p::before,
 .infor p::after {
-    font-weight: 900;
-    margin-right: 10px;
-    position: absolute;
-    left: -30px;
+  font-weight: 900;
+  margin-right: 10px;
+  position: absolute;
+  left: -30px;
 }
 
 p.number::before {
-    content: "\f095";
+  content: "\f095";
 }
 
 p.sup_time::before {
-    content: "\f0c0";
+  content: "\f0c0";
 }
 
 footer ul {
-    display: flex;
+  display: flex;
 }
 
 /* COPYRIGHT  COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT COPYRIGHT */
 .copyright {
-    height: 50px;
-    background-color: #303030;
-    display: flex;
-    position: relative;
+  height: 50px;
+  background-color: #303030;
+  display: flex;
+  position: relative;
 }
 
 .copyright p {
-    font-size: 0.7rem;
-    margin: auto;
+  font-size: 0.7rem;
+  margin: auto;
 }
 
 .copyright a i {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translate(0, -50%);
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 
 .copyright .bi-envelope {
-    right: 60px;
+  right: 60px;
 }
 
 /* CSS效果 CSS效果 CSS效果 CSS效果 CSS效果 CSS效果 CSS效果 CSS效果 CSS效果 CSS效果 CSS效果 CSS效果 CSS效果 CSS效果*/
@@ -192,16 +191,16 @@ footer ul {
 
 /* 導覽列 */
 .top-nav a:hover {
-    padding-bottom: 5px;
-    border-bottom: 4px solid #ff7300;
+  padding-bottom: 5px;
+  border-bottom: 4px solid #ff7300;
 }
 
 .RWD_list i {
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
-#RWD_list.-on .forRWD{
-    display: block;
+#RWD_list.-on .forRWD {
+  display: block;
 }
 
 #RWD_list.-on i {
@@ -210,81 +209,101 @@ footer ul {
 
 /* 頁腳 */
 .social ul li a {
-    transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .social ul li a:hover {
-    color: #ff7300;
+  color: #ff7300;
 }
 
 /* ----------------------獨立---------------------- */
 
 /* 首頁 index */
 main ul li {
-    transition: all 0.2s 0s ease;
+  transition: all 0.2s 0s ease;
 }
 
 main ul li:hover {
-    background-color: rgb(48 48 48);
+  background-color: rgb(48 48 48);
 }
 
 main ul li:hover div a {
-    transition: all 0.5s 0s ease;
-    border: 1px solid #ff7300;
-    transform: scale(1.1);
+  transition: all 0.5s 0s ease;
+  border: 1px solid #ff7300;
+  transform: scale(1.1);
 }
 
 /* 關於頁 about */
 .banner4 ul li {
-    transition: all 0.6s 0s ease;
+  transition: all 0.6s 0s ease;
 }
 
 .banner4 ul li:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .banner6 > input:hover {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
 /* 資訊頁 comms */
 .intel ul li {
-    transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .intel ul li:hover {
-    background-color: rgb(53, 53, 53);
+  background-color: rgb(53, 53, 53);
 }
 
 .intel ul li img {
-    transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .intel ul li:hover img {
-    transform: translateY(-20px) scale(1.1);
-    /* transform: translate(0px, 0px) scale(1, 1.3); */
+  transform: translateY(-20px) scale(1.1);
+  /* transform: translate(0px, 0px) scale(1, 1.3); */
 }
 
 .wmcomms ul li:hover div {
-    display: block;
+  display: block;
 }
 
 /* 媒體頁 */
 
 .search-wrp .time_hot span:hover > div {
-    display: block;
+  display: block;
 }
 
 .search-wrp .time_hot div input:hover {
-    background-color: #ff7300;
+  background-color: #ff7300;
 }
 
 .all_media ul li {
-    transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .all_media ul li:hover {
-    transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 /* 聯絡頁 */
+
+/* LOADING---GIF */
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  z-index: 999;
+}
+
+.loading img {
+  position: fixed;
+  width: auto;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 50%;
+  transform: translate(0, -50%);
+}

@@ -138,3 +138,8 @@ $(".lightbox").click(function () {
       .addClass("lightboxfadeout");
   });
 });
+
+// 載入頁面前的動畫
+window.addEventListener("load",function(){
+  document.querySelector(".loading").remove()
+})

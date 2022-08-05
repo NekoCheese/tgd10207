@@ -126,8 +126,14 @@ $(".show_file").click(function (e) {
 $(".lightbox").click(function () {
   let imgsrc = $(this).attr("src");
   $("body").append(
-    "<div class='img-popup'><h2></h2><span class='close-lightbox'>&times;</span><img src='" +
-      imgsrc + "'></div>"
+    `<div class='img-popup'><div class="l_bk"><img src="` +
+      imgsrc +
+      `"></div><div class='r_bk'><input type="button" value="Like" /><input type="button" value="Download" /><input type="button" value="Add to collection" /><ul><li>點級數 : ` +
+      Math.floor((Math.random() + 1) * 200) +
+      `</li><li>下載數 : ` +
+      Math.floor(Math.random() * 50) +
+      `</li><li>分類</li></ul>
+</div><span class='close-lightbox'>&times;</span></div>`
   );
   $(".close-lightbox, .img-popup").click(function () {
     $(".img-popup")

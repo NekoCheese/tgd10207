@@ -117,6 +117,8 @@
 /* LIGHTBOX */
 /* LIGHTBOX */
 .img-popup {
+  display: flex;
+  justify-content: space-between;
   position: fixed;
   width: 95vw;
   height: 95vh;
@@ -126,18 +128,40 @@
   bottom: 0;
   margin: auto;
   background: rgba(38, 40, 52, 0.95);
-  text-align: center;
+  /* text-align: center; */
+  border: 1px solid rgb(59, 59, 59);
   border-radius: 15px;
-  /* display: none; */
   z-index: 9999;
 
   animation: fadein;
   animation-duration: 0.5s;
 }
 
+.img-popup .l_bk {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(141, 141, 141, 0.3);
+  border-radius: 15px 0 0 15px;
+}
+
+.img-popup .r_bk {
+  margin: 100px auto;
+}
+
+.img-popup .r_bk input {
+  width: 100%;
+}
+
+.img-popup ul {
+  text-align: center;
+  background-color: black;
+}
+
 .img-popup img {
   top: 50%;
-  max-width: 80%;
+  left: 50%;
+  max-width: 90%;
   max-height: 90vh;
   position: absolute;
   display: inline-block;

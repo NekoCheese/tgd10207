@@ -42,7 +42,7 @@
     top: 56px;
     z-index: 999;
     animation: RWD_list;
-    animation-duration: .5s;
+    animation-duration: 0.5s;
   }
 
   .top .forRWD a {
@@ -63,7 +63,6 @@
       right: -150px;
     }
   }
-  
 
   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~首頁~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
@@ -323,6 +322,19 @@
   .media .all_media {
     columns: 1;
     margin: 20px 0;
+  }
+
+  .img-popup {
+    flex-direction: column;
+  }
+
+  .img-popup .l_bk {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .close-lightbox {
+    display: none;
   }
 
   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~資訊~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

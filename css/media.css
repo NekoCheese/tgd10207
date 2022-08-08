@@ -132,6 +132,7 @@
   border: 1px solid rgb(59, 59, 59);
   border-radius: 15px;
   z-index: 9999;
+  font-size: 1.5rem;
 
   animation: fadein;
   animation-duration: 0.5s;
@@ -146,16 +147,28 @@
 }
 
 .img-popup .r_bk {
+  width: 40%;
   margin: 100px auto;
+  height: 100%;
 }
 
 .img-popup .r_bk input {
+  font-size: 1.5rem;
   width: 100%;
+  height: 50px;
+  margin: 20px 0;
 }
 
 .img-popup ul {
   text-align: center;
-  background-color: black;
+  height: 100%;
+}
+
+.img-popup ul li {
+  width: 100%;
+  background-color: rgb(59, 59, 59);
+  margin: 20px 0;
+  padding: 30px 0;
 }
 
 .img-popup img {
@@ -171,7 +184,7 @@
 .close-lightbox {
   position: absolute;
   top: 45px;
-  right: 10%;
+  right: 45px;
   padding: 0px 10px;
   color: #fff;
   font-size: 35px;

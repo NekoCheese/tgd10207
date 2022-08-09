@@ -20,6 +20,7 @@
   color: rgb(255, 255, 255);
   font-weight: 800;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .search_box input {
@@ -140,35 +141,48 @@
 
 .img-popup .l_bk {
   position: relative;
-  width: 50%;
+  width: 60%;
   height: 100%;
-  background-color: rgba(141, 141, 141, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   border-radius: 15px 0 0 15px;
 }
 
 .img-popup .r_bk {
-  width: 40%;
+  width: 30%;
   margin: 100px auto;
   height: 100%;
 }
 
-.img-popup .r_bk input {
+.img-popup .r_bk > div {
+  display: flex;
+  margin: 30px 0;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.img-popup .r_bk i{
+  padding-top: 2px;
   font-size: 1.5rem;
-  width: 100%;
-  height: 50px;
-  margin: 20px 0;
+  width: 20%;
+  line-height: 1.4;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.img-popup .r_bk i:hover {
+  color: #ff7300;
+  border: 2px solid #ff7300;
 }
 
 .img-popup ul {
   text-align: center;
-  height: 100%;
 }
 
 .img-popup ul li {
   width: 100%;
   background-color: rgb(59, 59, 59);
   margin: 20px 0;
-  padding: 30px 0;
+  padding: 20px 0;
 }
 
 .img-popup img {

@@ -157,6 +157,10 @@ textarea {
   margin: 50px;
 }
 
+.sup_r_t {
+  font-size: 1.5rem;
+}
+
 .names,
 .mail,
 .type,

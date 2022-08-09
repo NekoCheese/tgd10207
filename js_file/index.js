@@ -18,7 +18,7 @@ $("#email").keyup(function () {
   } else $(".mail .error").html("");
 });
 
-// // 姓名不為空
+// 姓名不為空
 $("#names").keyup(function () {
   if ($(this).val() == "") {
     $(".names .error").html("請輸入姓名");
@@ -32,7 +32,7 @@ $("#textarea").keyup(function () {
   } else $(".form_med .error").html("");
 });
 
-// // 問題類型不為空
+// 問題類型不為空
 $("#select_pgm").change(function () {
   if ($(this).val() == null) {
     $(".type .error").html("請選擇問題類型");
@@ -125,17 +125,27 @@ $(".show_file").click(function (e) {
 // LIGHTBOX
 $(".lightbox").click(function () {
   let imgsrc = $(this).attr("src");
-  // let className = $(this).val();
+  let className = $(this).parent().attr("class");
   $("body").append(
     `<div class='img-popup'><div class="l_bk"><img src="` +
       imgsrc +
-      `"></div><div class='r_bk'><input type="button" value="喜歡" /><input type="button" value="下載" /><input type="button" value="加入收藏" /><ul><li>瀏覽次數 : ` +
+      `"></div><div class='r_bk'><div><i class="bi bi-heart"></i><i class="bi bi-star"></i><i class="bi bi-download"></i></div><ul><li>瀏覽次數 : ` +
       Math.floor((Math.random() + 1) * 200) +
       `</li><li>下載次數 : ` +
       Math.floor(Math.random() * 50) +
-      `</li><li>分類 : </li></ul>
+      `</li><li>分類 : ` +
+      className +
+      `</li></ul>
 </div><span class='close-lightbox'>&times;</span></div>`
   );
+  // 停止冒泡
+  $(".l_bk,.r_bk")
+    .children()
+    .click(function (e) {
+      e.stopPropagation();
+    });
+
+  // 關閉
   $(".close-lightbox, .img-popup").click(function () {
     $(".img-popup")
       .fadeOut(500, function () {

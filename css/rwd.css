@@ -39,10 +39,8 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.9);
     right: -150px;
-    top: 56px;
+    top: 55px;
     z-index: 999;
-    animation: RWD_list;
-    animation-duration: 0.5s;
   }
 
   .top .forRWD a {
@@ -52,16 +50,6 @@
     text-align: center;
     width: 100vw;
     margin: 40px 0;
-  }
-
-  @keyframes RWD_list {
-    0% {
-      right: -500px;
-    }
-
-    100% {
-      right: -150px;
-    }
   }
 
   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~首頁~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -84,7 +72,16 @@
   }
 
   .owl-theme .owl-dots {
-    display: none;
+    /* display: none; */
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    top: 90%;
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    width: 10px !important; 
+    height: 10px !important; 
   }
 
   .head-pic img {
@@ -328,9 +325,22 @@
     flex-direction: column;
   }
 
+  .img-popup ul {
+  }
+
   .img-popup .l_bk {
     width: 100%;
     border-radius: 15px 15px 0 0;
+  }
+
+  .img-popup .r_bk {
+    height: auto;
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  .img-popup .r_bk i{
+    width: 30%;
   }
 
   .close-lightbox {
@@ -456,6 +466,7 @@
   }
 
   .sup_right {
+    order: -1;
     width: auto;
     margin: 0;
   }
@@ -467,7 +478,7 @@
   .sup_left {
     width: 100%;
     height: auto;
-    margin-top: 50px;
+    margin-bottom: 40px;
   }
 
   .sup_left > h2 {

@@ -302,6 +302,7 @@
   .search_box input {
     width: 50%;
     margin-left: 20px;
+    border-radius: 0;
   }
 
   .search-wrp .time_hot .hot {
@@ -327,6 +328,10 @@
     flex-direction: column;
   }
 
+  .img-popup img{
+    max-height: 90%;
+  }
+
   .img-popup ul {
   }
 
@@ -346,7 +351,7 @@
   }
 
   .close-lightbox {
-    display: none;
+    /* display: none; */
   }
 
   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~資訊~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

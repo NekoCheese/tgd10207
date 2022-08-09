@@ -166,12 +166,10 @@
   width: 20%;
   line-height: 1.4;
   text-align: center;
-  border: 2px solid white;
 }
 
 .img-popup .r_bk i:hover {
   color: #ff7300;
-  border: 2px solid #ff7300;
 }
 
 .img-popup ul {

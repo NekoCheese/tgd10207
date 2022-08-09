@@ -2,6 +2,10 @@
     outline: 1px solid red;
 } */
 
+.top-nav a:last-child {
+  color: #ff7300;
+}
+
 label,
 input,
 div {

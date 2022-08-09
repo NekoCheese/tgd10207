@@ -1,5 +1,5 @@
 /* 麵包屑 */
-.top-nav a:last-child {
+.top-nav a:nth-child(4) {
     color: #ff7300;
 }
 /* 麵包屑 */

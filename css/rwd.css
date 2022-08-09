@@ -109,6 +109,7 @@
 
   .banner a {
     border: 1px solid white;
+    margin: 30px auto;
     position: static;
     width: 200px;
     font-size: 1rem;

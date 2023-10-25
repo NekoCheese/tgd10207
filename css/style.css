@@ -307,3 +307,24 @@ main ul li:hover div a {
   top: 50%;
   transform: translate(0, -50%);
 }
+
+/* 模糊消失動畫 */
+@keyframes fade-out {
+  0% {
+    filter: blur(5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+
+.lazy {
+  width: 100%;
+  height: auto;
+  position: relative;
+  filter: blur(5px); /* 模糊效果 */
+}
+
+.lazy-out {
+  animation: fade-out 1s ease-out; /* 使用動畫 */
+}

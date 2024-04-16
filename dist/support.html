@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/support.css" />
     <link rel="stylesheet" href="css/rwd.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css"
     />
-    <title>WEAPON MAKER-團隊作品</title>
+    <title>WEAPON MAKER-聯絡我們</title>
   </head>
 
   <body>
@@ -51,125 +51,146 @@
 
       <!-- ********************************************************************** -->
 
-      <div class="media">
-        <div class="search-wrp">
-          <div class="search_box">
-            <input type="text" />
-          </div>
+      <div class="sup_wrp">
+        <div class="sup_left">
+          <h2>聯絡我們</h2>
+          <p>
+            所有標有
+            <span class="red">*</span> 的字段均為必填項，必須填寫。
+          </p>
 
-          <div class="time_hot">
-            <span class="hot"
-              >排序 :
-              <input type="button" value="人氣" />
+          <form action="#">
+            <div class="form_top">
+              <div>
+                <div class="names">
+                  <span>姓名<span class="red">*</span></span>
+                  <input
+                    type="text"
+                    name=""
+                    id="names"
+                    placeholder="Name"
+                    maxlength="10"
+                  />
+                  <div class="error"></div>
+                </div>
+
+                <div class="phone">
+                  <span>電話</span>
+                  <input type="text" name="" id="" placeholder="Number" />
+                </div>
+              </div>
 
               <div>
-                <input type="button" value="熱門度" />
-                <input type="button" value="最新" />
-              </div>
-            </span>
+                <div class="mail">
+                  <span>電子信箱<span class="red">*</span></span>
+                  <input
+                    type="text"
+                    name=""
+                    id="email"
+                    placeholder="email@example.com"
+                  />
+                  <div class="error"></div>
+                </div>
 
-            <span class="time"
-              >篩選 :
-              <input type="button" value="最新" />
+                <div class="city">
+                  <span>城市</span>
+                  <select name="pets">
+                    <option value="" disabled selected>請選擇城市</option>
+                    <option value="">台北市</option>
+                    <option value="">台中市</option>
+                    <option value="">高雄市</option>
+                    <option value="">其他</option>
+                    <option value="" disabled>其他地區請於留言註明</option>
+                  </select>
+                </div>
+              </div>
 
               <div>
-                <input type="button" value="人氣 > 10" />
-                <input type="button" value="人氣 > 20" />
-                <input type="button" value="人氣 > 50" />
+                <div class="addr">
+                  <span>地址</span>
+                  <input type="text" name="" id="" />
+                </div>
+
+                <div class="type">
+                  <span>問題類型<span class="red">*</span></span>
+                  <select name="pets" id="select_pgm">
+                    <option value="請選擇" disabled selected>請選擇</option>
+                    <option value="註冊相關">註冊相關</option>
+                    <option value="交易問題">交易問題</option>
+                    <option value="安全疑慮">安全疑慮</option>
+                    <option value="配送方式">配送方式</option>
+                    <option value="法律規範">法律規範</option>
+                    <option value="安全問題">安全問題</option>
+                    <option value="其他">其他</option>
+                  </select>
+                  <div class="error"></div>
+                </div>
               </div>
-            </span>
-          </div>
+            </div>
+
+            <div class="form_med">
+              <span class="QA">問題/評論<span class="red">*</span></span>
+              <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+              <div class="error"></div>
+            </div>
+
+            <div class="form_btm">
+              <span class="file">檔案上傳</span>
+              <div class="show_file">
+                <img id="blah" src="#" />
+                <p>請將檔案放於此處</p>
+              </div>
+              <input type="file" accept="image/*" id="imgInp" />
+            </div>
+
+            <div class="agree">
+              <label for="agree"
+                ><input
+                  type="checkbox"
+                  id="agree"
+                />本表單蒐集之個人資料，僅限於專題展示使用，非經當事人同意，不轉做其他用途。</label
+              >
+
+              <div class="submit">
+                <input type="submit" value="送出" />
+                <div id="error"></div>
+              </div>
+            </div>
+          </form>
         </div>
 
-        <h2>團隊作品</h2>
+        <div class="sup_right">
+          <p>
+            <span class="sup_r_t"> 營業時間 </span>
+            <br />
+            8:00AM-5:00PM GMT <br />
+            <br />
 
-        <div class="all_media">
-          <ul>
-            <li class="Rifle">
-              <img
-                src="img/media_img/media01_lqip.jpg"
-                data-src="img/media_img/media01.jpg"
-                class="lazy lightbox"
-              />
-            </li>
-            <li class="Submachine">
-              <img
-                src="img/media_img/media02_lqip.jpg"
-                data-src="img/media_img/media02.jpg"
-                alt=""
-                class="lazy lightbox"
-              />
-            </li>
-            <li class="Rifle">
-              <img
-                src="img/media_img/media03_lqip.jpg"
-                data-src="img/media_img/media03.jpg"
-                alt=""
-                class="lazy lightbox"
-              />
-            </li>
-            <li class="Pistol">
-              <img
-                src="img/media_img/media04_lqip.jpg"
-                data-src="img/media_img/media04.jpg"
-                alt=""
-                class="lazy lightbox"
-              />
-            </li>
-            <li class="Rifle">
-              <img
-                src="img/media_img/media05_lqip.jpg"
-                data-src="img/media_img/media05.jpg"
-                alt=""
-                class="lazy lightbox"
-              />
-            </li>
-            <li><img src="img/media_img/apache-1.png" alt="" class="lightbox" /></li>
-            <li><img src="img/media_img/apache-2.png" alt="" class="lightbox" /></li>
-            <li><img src="img/media_img/apache-3.png" alt="" class="lightbox" /></li>
-            <li><img src="img/media_img/apache-4.png" alt="" class="lightbox" /></li>
-            <li><img src="img/media_img/apache-5.png" alt="" class="lightbox" /></li>
-            <!--<li class="Rifle">
-              <img src="img/media_img/media06.jpg" alt="" class="lightbox" />
-             </li>
-             
-            <li class="Rifle">
-              <img src="img/media_img/media07.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Submachine">
-              <img src="img/media_img/media08.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Special">
-              <img src="img/media_img/media09.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Rifle">
-              <img src="img/media_img/media10.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Sniper">
-              <img src="img/media_img/media11.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Pistol">
-              <img src="img/media_img/media12.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Pistol">
-              <img src="img/media_img/media13.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Shootgun">
-              <img src="img/media_img/media14.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Rifle">
-              <img src="img/media_img/media15.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Rifle">
-              <img src="img/media_img/media16.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Sniper">
-              <img src="img/media_img/media17.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Rifle">
-              <img src="img/media_img/media18.jpg" alt="" class="lightbox" />
-            </li> -->
-          </ul>
+            <span class="sup_r_t"> 電話 </span>
+            <br />
+            (02)2345-6789 <br />
+            <br />
+            <br />
+
+            我們的客戶服務友好而輕鬆。通過電話聯繫我們或通過我們的在線網絡表格在此處提交您的查詢。
+            <br />
+            <br />
+
+            如果您正在尋找協助，我們有一系列工具和備件套件可能會有所幫助。
+            <br />
+            <br />
+
+            有關服務信息以及活動的詳細信息可在我們的相關資訊頁面上找到。
+            <br />
+            <br />
+
+            我們的平均回覆時間為 24 - 48
+            小時。如果您在此時間範圍後沒有收到我們的消息，請隨時再次與我們聯繫，或是在我們的
+            Facebook 頁面上聯繫我們。 <br />
+            <br />
+
+            我們將盡我們所能回覆所有電子郵件和評論。
+          </p>
         </div>
       </div>
 
@@ -291,9 +312,6 @@
       </footer>
     </div>
 
-    <!-- ///////////////////////////// -->
-
-    <!-- ///////////////////////////// -->
     <!-- Messenger 洽談外掛程式 Code -->
     <div id="fb-root"></div>
 

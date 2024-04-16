@@ -79,3 +79,4 @@ _ReSharper.*
 *.psess
 
 *.txt
+node_modules

@@ -5,21 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/rwd.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css"
     />
-    <title>WEAPON MAKER-團隊作品</title>
-  </head>
+    <!-- 貓頭鷹 -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
+    <!-- 貓頭鷹 -->
 
+    <title>WEAPON MAKER-首頁</title>
+  </head>
   <body>
     <div class="loading">
       <img src="img/1493.gif" alt="" />
     </div>
-    <!-- 整頁 -->
-    <div class="page-wrapper">
+    <div class="home page-wrapper">
       <!-- 導覽列 -->
       <nav class="top">
         <!-- LOGO -->
@@ -49,131 +52,114 @@
         </div>
       </nav>
 
-      <!-- ********************************************************************** -->
-
-      <div class="media">
-        <div class="search-wrp">
-          <div class="search_box">
-            <input type="text" />
-          </div>
-
-          <div class="time_hot">
-            <span class="hot"
-              >排序 :
-              <input type="button" value="人氣" />
-
-              <div>
-                <input type="button" value="熱門度" />
-                <input type="button" value="最新" />
-              </div>
-            </span>
-
-            <span class="time"
-              >篩選 :
-              <input type="button" value="最新" />
-
-              <div>
-                <input type="button" value="人氣 > 10" />
-                <input type="button" value="人氣 > 20" />
-                <input type="button" value="人氣 > 50" />
-              </div>
-            </span>
-          </div>
+      <!-- 宣傳圖 -->
+      <div class="owl-carousel owl-theme head-pic" id="home_for_pc">
+        <div class="item">
+          <img src="img/home_img/head_bg1.jpg" alt="" />
         </div>
-
-        <h2>團隊作品</h2>
-
-        <div class="all_media">
-          <ul>
-            <li class="Rifle">
-              <img
-                src="img/media_img/media01_lqip.jpg"
-                data-src="img/media_img/media01.jpg"
-                class="lazy lightbox"
-              />
-            </li>
-            <li class="Submachine">
-              <img
-                src="img/media_img/media02_lqip.jpg"
-                data-src="img/media_img/media02.jpg"
-                alt=""
-                class="lazy lightbox"
-              />
-            </li>
-            <li class="Rifle">
-              <img
-                src="img/media_img/media03_lqip.jpg"
-                data-src="img/media_img/media03.jpg"
-                alt=""
-                class="lazy lightbox"
-              />
-            </li>
-            <li class="Pistol">
-              <img
-                src="img/media_img/media04_lqip.jpg"
-                data-src="img/media_img/media04.jpg"
-                alt=""
-                class="lazy lightbox"
-              />
-            </li>
-            <li class="Rifle">
-              <img
-                src="img/media_img/media05_lqip.jpg"
-                data-src="img/media_img/media05.jpg"
-                alt=""
-                class="lazy lightbox"
-              />
-            </li>
-            <li><img src="img/media_img/apache-1.png" alt="" class="lightbox" /></li>
-            <li><img src="img/media_img/apache-2.png" alt="" class="lightbox" /></li>
-            <li><img src="img/media_img/apache-3.png" alt="" class="lightbox" /></li>
-            <li><img src="img/media_img/apache-4.png" alt="" class="lightbox" /></li>
-            <li><img src="img/media_img/apache-5.png" alt="" class="lightbox" /></li>
-            <!--<li class="Rifle">
-              <img src="img/media_img/media06.jpg" alt="" class="lightbox" />
-             </li>
-             
-            <li class="Rifle">
-              <img src="img/media_img/media07.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Submachine">
-              <img src="img/media_img/media08.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Special">
-              <img src="img/media_img/media09.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Rifle">
-              <img src="img/media_img/media10.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Sniper">
-              <img src="img/media_img/media11.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Pistol">
-              <img src="img/media_img/media12.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Pistol">
-              <img src="img/media_img/media13.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Shootgun">
-              <img src="img/media_img/media14.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Rifle">
-              <img src="img/media_img/media15.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Rifle">
-              <img src="img/media_img/media16.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Sniper">
-              <img src="img/media_img/media17.jpg" alt="" class="lightbox" />
-            </li>
-            <li class="Rifle">
-              <img src="img/media_img/media18.jpg" alt="" class="lightbox" />
-            </li> -->
-          </ul>
+        <div class="item">
+          <img src="img/home_img/head_bg2.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="img/home_img/head_bg3.jpg" alt="" />
         </div>
       </div>
 
-      <!-- ********************************************************************** -->
+      <!-- FOR mobile -->
+      <div class="owl-carousel owl-theme head-pic" id="home_for_mobile">
+        <div class="item">
+          <img src="img/home_img/mob_bg1.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="img/home_img/mob_bg2.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="img/home_img/mob_bg3.jpg" alt="" />
+        </div>
+      </div>
+
+      <!-- 橫幅 -->
+      <main>
+        <ul class="banner">
+          <li class="banner1">
+            <div>
+              <h3>權利保護</h3>
+              <p>
+                我們本身就是熱情的垂釣者和獵人，所以我們完全積極地致力於支持尋求消費者最大利益的團體以及整個戶外運動用品​​行業。
+              </p>
+              <a href="https://nekocheese.github.io/tgd10207/about.html"
+                >關於我們</a
+              >
+            </div>
+
+            <img src="img/home_img/banner1.jpg" alt="" />
+          </li>
+
+          <li class="banner2">
+            <img src="img/home_img/banner2.jpg" alt="" />
+
+            <div>
+              <h3>都說我們是精品，讓你改槍一把罩！</h3>
+              <p>
+                我們是徹底奉獻的機械狂人，能掌握精髓將設計草圖化作活生生的鋼與鐵。我們是注重細節的工匠，用心是基本態度，品質穩定是自我要求的最低標準。
+                Weapon
+                Maker將技術運用在玩具槍及改裝零件的設計，陸續推出一系列玩具槍及改裝零件，成為玩家愛不釋手的精品。
+              </p>
+              <a href="https://nekocheese.github.io/tgd10207/media.html"
+                >瀏覽作品</a
+              >
+            </div>
+          </li>
+
+          <li class="banner3">
+            <div>
+              <h3>世界級分銷</h3>
+              <p>
+                Weapon Maker 擁有超過 190,000
+                個產品，並為美國、加拿大、加勒比地區和其他八個國家的 15,000
+                多家釣魚、射擊、露營、動物標本剝制和海洋零售商提供服務。
+              </p>
+              <a href="https://nekocheese.github.io/tgd10207/comms.html"
+                >了解更多</a
+              >
+            </div>
+
+            <img src="img/home_img/banner3.jpg" alt="" />
+          </li>
+
+          <li class="banner4">
+            <img src="img/home_img/banner4.jpg" alt="" />
+
+            <div>
+              <h3>改變遊戲規則的服務</h3>
+              <p>
+                儘管 Weapon Maker
+                是北美最大的戶外運動用品​​經銷商之一，但我們遠不止於此。我們提供一系列獨家工具和資源，旨在為零售商提供競爭優勢。
+              </p>
+              <a href="https://nekocheese.github.io/tgd10207/support.html"
+                >立即聯絡</a
+              >
+            </div>
+          </li>
+        </ul>
+      </main>
+
+      <!-- 訂閱 -->
+      <aside>
+        <h1>不要錯過最新消息</h1>
+        <h2>訂閱 WEAPON MAKER 以獲取新聞、額外內容和特別優惠</h2>
+
+        <div class="submit">
+          <form action="#">
+            <input
+              type="email"
+              class="email"
+              placeholder="E-MAIL@EXAMPLE.COM"
+            />
+            <input type="submit" class="send" />
+          </form>
+        </div>
+      </aside>
 
       <!-- 頁腳 -->
       <footer>
@@ -208,7 +194,7 @@
                   href="https://www.facebook.com/"
                   target="_blank"
                   class="icon3"
-                  title="#"
+                  title="Facebook"
                 >
                   <i class="fa-brands fa-facebook"></i>
                 </a>
@@ -291,9 +277,6 @@
       </footer>
     </div>
 
-    <!-- ///////////////////////////// -->
-
-    <!-- ///////////////////////////// -->
     <!-- Messenger 洽談外掛程式 Code -->
     <div id="fb-root"></div>
 
@@ -326,11 +309,26 @@
       })(document, "script", "facebook-jssdk");
     </script>
 
+    <!-- 貓頭鷹 -->
     <script src="js_file/jquery.min.js"></script>
     <script src="js_file/index.js"></script>
     <script
       src="https://kit.fontawesome.com/830780574d.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js_file/owl.carousel.min.js"></script>
+
+    <script>
+      // 輪播
+      $(".owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        animateOut: "fadeOut",
+      });
+    </script>
+    <!-- 貓頭鷹 -->
   </body>
 </html>
